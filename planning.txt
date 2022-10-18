@@ -1,0 +1,15 @@
+Classes
+  Player
+    initialize(name)
+    Score
+      keep track of score, increment with correct answers
+  Question
+    initialize(number)
+      create new question with random values 
+    response for correct/incorrect answers
+      check player input against correct answer
+  Turn
+    initialize(number)
+    new question/answer, same players
+    track current player
+

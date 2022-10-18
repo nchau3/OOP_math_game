@@ -1,10 +1,10 @@
 class Player
-  attr_accessor :score
+  attr_accessor :lives
   attr_reader :name
 
   def initialize(name)
     @name = name
-    @score = 0
+    @lives = 3
     puts "Welcome #{name}!"
   end
 
